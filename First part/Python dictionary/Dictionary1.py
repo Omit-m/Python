@@ -17,7 +17,8 @@ divisions = bd_division_info.keys()  # Getting all keys in the dictionary
 
 
 for division in divisions:
-    print("Division:", division, " and ","Upazilas:", 
-          bd_division_info[division]["upazilas"])  # Accessing value via using key
+    print("Division:", division, " and ",
+          "Upazilas:",bd_division_info[division]["upazilas"])  
+    
    
 
