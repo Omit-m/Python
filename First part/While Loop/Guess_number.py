@@ -2,8 +2,6 @@ import random
 
 number = random.randint(1, 1001)
 
-# print(number)
-
 attempts = 0
 
 while True:
@@ -17,3 +15,4 @@ while True:
     else:
         print(f"Congratulations! You've guessed the number {number} in {attempts} attempts.")
         break
+
