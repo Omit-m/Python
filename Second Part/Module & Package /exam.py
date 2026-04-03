@@ -1,4 +1,5 @@
-def find_fib(n):
+n = int(input("Enter the number of limits : "))
+def list_fib(n):
     if n <= 2:
         return 1 
     fib_x, fib_next = 1, 1
@@ -11,6 +12,6 @@ def find_fib(n):
         fib_list.append(fib_next)
         i += 1  
     return fib_list
-  
+   
 
-print(find_fib(10))
+print(list_fib(n))
