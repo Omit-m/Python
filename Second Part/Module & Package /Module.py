@@ -1,4 +1,4 @@
-import builtins
+import datetime
 
-print(dir(builtins))
+print(dir(datetime))
 # This code imports the built-in module 'builtins' and prints a list of all the
