@@ -1,6 +1,5 @@
 import fibo 
 
-
 range = 10
 n= fibo.find_fib(range)
 
