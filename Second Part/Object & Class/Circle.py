@@ -1,6 +1,8 @@
 import turtle
 import random
 
+
+# tom = turtle.Turtle() # creates a turtle object named tom
 turtle.speed(5)
 turtle.hideturtle() # # makes the turtle invisible
 colors = ["red", "blue", "green", "yellow", "orange", "purple"] 
