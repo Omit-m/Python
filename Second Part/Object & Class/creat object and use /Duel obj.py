@@ -7,6 +7,9 @@ class Student:
         self.address = q
 
     def details(self):
+
+        print("Student details : ")
+        print("\n")
         print("name : ", self.name)
         print("Roll:", self.roll)
         print("Age : ",self.age)
