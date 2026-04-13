@@ -1,6 +1,6 @@
 import requests
 
-url = "https://picsum.photos/300"   # direct image source
+url = "https://picsum.photos/500"   # direct image source
 response = requests.get(url)
 
 if response.status_code == 200:
