@@ -6,16 +6,21 @@ with open("file.txt", "w") as f:
         f.write(line + "\n")
 
 
-# with open("file.txt", "r") as f:
-#     content = f.read()
-#     print(content)  
+with open("file.txt", "r") as f:
+    content = f.read()
+    print(content)  
 
 
 with open ("file.txt", "r") as f:
     lines = f.readlines()
     print("\n",lines,"\n")
     for line in lines:  
-        print(line)      
+        print(line)  
+
+with open("file.txt", "r") as f:
+    for line in f:
+        print(line)
+
 
 
 
