@@ -7,7 +7,7 @@ os.makedirs("Names", exist_ok=True)
 
 # Step 2: Create name.txt and store 1000 names
 with open("Names/name.txt", "w") as file:
-    for i in range(1000):
+    for i in range(1000000):
         file.write(names.get_full_name() + "\n")
 
 # Step 3: Read names and organize by first letter
