@@ -4,17 +4,17 @@ class Numbers:
         self.b = b
 
 class Numbers1:
-    def __init__(self, e, f):
-        self.e = e
-        self.f = f
+    def __init__(self, c, d):
+        self.c = c
+        self.d = d
 
 class Addition(Numbers, Numbers1):
     def __init__(self, a, b, c, d, e, f):
         Numbers.__init__(self, a, b)      # call first parent
-        Numbers1.__init__(self, e, f)     # call second parent
+        Numbers1.__init__(self, c, d)     # call second parent
 
-        self.c = c
-        self.d = d
+        self.e = e
+        self.f = f
 
     def add(self):
         total = self.a + self.b + self.c + self.d + self.e + self.f
