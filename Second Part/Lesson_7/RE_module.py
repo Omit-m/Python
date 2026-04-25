@@ -2,4 +2,8 @@ import re
 
 match = re.search('Bangla', 'Bangladesh')
 
-print( match.group())
+match = re.search('desh' , 'Bangladesh')
+
+match= re.search('des', 'Bangladesh')
+
+print(match.group())
