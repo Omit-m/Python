@@ -11,14 +11,14 @@ print(single_digits)
 print(multiple_digits)
 
 
-# Search for the first occurrence of one or more digits in the text.
-# search() → finds first number
+# Search() for the first occurrence.
+
 
 import re
 
 text = "I have 2 apples and 5 bananas"
 
-m = re.search(r'\d+', text)
+m = re.search(r'apples', text)
 print(m.group())
 
 
