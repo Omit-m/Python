@@ -1,6 +1,10 @@
 import re
 
-text = "1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50"
 
-all_numbers = re.findall(r'\d+', text)
-print("findall():", all_numbers)
+text = "Age 22 and 105"
+
+single_digits = re.findall(r'\d', text)
+multiple_digits = re.findall(r'\d+', text)
+
+print(single_digits)
+print(multiple_digits)
