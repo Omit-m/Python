@@ -9,3 +9,7 @@ print(result.group())
 # find all words that start with s      
 result2 = re.findall(r"\bs\w+", text)
 print(result2)
+
+# replace "red" with "green"
+new_text= re.sub(r"red", "green", text )
+print(new_text)
